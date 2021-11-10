@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
 
-/* IMPORTANT VERIFIER FORMAT PHOTO EN SVG */
-/* IMPORTANT VERIFIER FORMAT PHOTO EN SVG */
-/* IMPORTANT VERIFIER FORMAT PHOTO EN SVG */
-/* IMPORTANT VERIFIER FORMAT PHOTO EN SVG */
-
-
 * {
   font-family: "Raleway";
   box-sizing: border-box;
@@ -85,7 +79,7 @@ header {
 .link-activity:hover::after {
   transform: scale(1);
 }
-.Booki {
+.booki {
   width: 80%;
 }
 .navbar {
@@ -113,6 +107,9 @@ a {
   height: 50px;
   display: flex;
   flex-direction: row;
+}
+.input-search input{
+  padding-left: 10px;
 }
 .label {
   align-items: center;
@@ -259,6 +256,7 @@ main {
   flex-direction: column;
   justify-content: center;
   height: auto;
+  margin: 10px;
 }
 .title-lodging {
   width: 100%;
@@ -387,10 +385,6 @@ main {
   width: 95%;
   height: 100%;
   object-fit: cover;
-  transition: 1s;
-}
-.pics-popular:hover{
-  transform: scale(2.5);
 }
 .description-popular {
   width: 80%;
@@ -407,7 +401,6 @@ main {
   flex-direction: column;
   justify-content: center;
   width: 28%;
-  border: #000000 solid 3px;
 }
 
 /*------------------------------------*\
@@ -640,13 +633,13 @@ footer {
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 240px;
+    height: 230px;
   }
   .tag-picture-activity-two{
     height: 100%;
   }
   .tag-picture-activity-two-first{ 
-    height: 66%;
+    height: 75%;
   }
 }
 
@@ -662,7 +655,7 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
-  .Booki {
+  .booki {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -689,10 +682,11 @@ footer {
   }
   .container-search {
     display: flex;
+    align-items: center;
     width: 100%;
     flex-direction: column;
   }
-  .container-search h1 {
+  .container-search, h1 {
     margin-left: 25px;
   }
   .search {
@@ -765,7 +759,6 @@ footer {
     height: 200px;
   }
   .tag-picture-popular {
-    border: brown solid 3px;
     width: 70%;
   }
   .pics-popular {
@@ -791,7 +784,7 @@ footer {
   .tag-picture-activity-one,
   .tag-picture-activity-two{
     width: 100%;
-    height: 70%;
+    height: 75%;
   }
   .activity-one {
     flex-direction: column;
@@ -805,7 +798,7 @@ footer {
     flex-direction: column;
     height: 200px;
     width: 90%;
-    margin: 20px;
+    margin: 25px;
   }  
 
   /*------------------------------------*\
