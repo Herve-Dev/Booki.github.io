@@ -115,7 +115,6 @@ a {
   flex-direction: row;
 }
 .label {
-  border: steelblue solid 2px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -323,7 +322,6 @@ main {
 }
 .div-star {
   width: 100%;
-  border: blue solid 3px;
 }
 .show-more {
   width: 100%;
@@ -425,7 +423,6 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: green solid 3px; 
 }
 .title-activity{
   width: 100%;
@@ -438,31 +435,26 @@ main {
 .contents-activity {
   display: flex;
   height: 650px;
-  border: purple 4px solid; 
 }
 .div-activity {
   width: 100%;
   display: flex;
-  border: steelblue solid 3px;
   justify-content: center;
   align-items: center;
 }
 .descritption-activity {
   width: 100%;
   height: auto;
-  border: solid 3px green;
   padding-left: 10px;
 }
 .tag-picture-activity-one{
   width: 100%;
   height: 100%;
-  border: red 3px solid;
 }
 .tag-picture-activity-two{
   display: flex;
   width: 100%;
   height: 70%;
-  border: red 3px solid;
 }
 .tag-picture-activity-two-first{
   width: 100%;
@@ -479,7 +471,6 @@ main {
   height: 225px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 2px rgba(50, 50, 50, 0.31);
-  border: yellow solid 3px;
   margin: 20px;
 }
 .activity-two:hover {
@@ -498,7 +489,6 @@ main {
   width: 85%;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 2px rgba(50, 50, 50, 0.31);
-  border: purple solid 3px;
   height: 250px;
 }
 .activity-two-first:hover {
@@ -513,7 +503,6 @@ main {
   width: 95%;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 2px rgba(50, 50, 50, 0.31);
-  border: purple solid 3px;
   height: 500px;
 }
 .activity-one h2 {
@@ -559,7 +548,6 @@ footer {
   width: 100%;
 }
 .foot {
-  border: solid 3px yellow;
   width: 100%;
   display: flex;
   flex-direction: column;
