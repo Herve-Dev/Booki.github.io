@@ -259,7 +259,6 @@ main {
   flex-direction: column;
   justify-content: center;
   height: auto;
-  border: #000000 solid 3px;
 }
 .title-lodging {
   width: 100%;
@@ -280,9 +279,7 @@ main {
   justify-content: space-around;
   background-color: #f2f2f2;
 }
-.show-more{
-  border: #000000 solid 3px;
-}
+
 .lodging {
   margin: 20px;
   padding: 2px;
@@ -348,7 +345,6 @@ main {
   width: 100%;
   background-color: #f2f2f2;
   border-radius: 20px 20px 0 0;
-  border: #000000 solid 4px;
   margin: 0;
 }
 .title-popular h1 {
@@ -399,7 +395,6 @@ main {
 .description-popular {
   width: 80%;
   height: auto;
-  border: solid black 3px;
 }
 .description-popular h2 {
   font-size: 20px;
@@ -426,7 +421,6 @@ main {
 }
 .title-activity{
   width: 100%;
-  border: #000000 3px solid;
   padding-left: 10px;
 }
 .title-activity h1 {
