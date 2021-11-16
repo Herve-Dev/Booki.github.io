@@ -561,8 +561,8 @@ footer {
 }
 @media only screen and (min-width: 1824px) {
   body {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
