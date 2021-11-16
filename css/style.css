@@ -265,8 +265,7 @@ main {
   margin: 0;
   background-color: #f2f2f2;
   border-radius: 20px 20px 0 0;
-  padding-left: 15px; 
-  padding-top: 15px;
+  padding: 15px;
 }
 .title-lodging h2 {
   padding-left: 20px;
@@ -351,7 +350,7 @@ main {
   justify-content: space-between;
   width: 100%;
   margin: 0;
-  padding: 5%;
+  padding: 20px;
 }
 .title-popular h2 {
   font-size: 25px;
