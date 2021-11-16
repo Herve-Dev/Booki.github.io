@@ -224,7 +224,7 @@ input {
 .color-font-filter {
   color: #0065fc;
 }
-.container-main {
+#container-main {
   width: 100%;
   height: auto;
   display: flex;
@@ -237,6 +237,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  flex: 1 0 auto; 
 }
 .star-full {
   color: #0065fc;
@@ -249,20 +250,25 @@ main {
   #SECTION-LODGING
 \*------------------------------------*/
 
-.container-lodging {
+#container-lodging {
   width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: auto;
-  margin: 10px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
 }
 .title-lodging {
   width: 100%;
+  height: 100%;
+  margin: 0;
   background-color: #f2f2f2;
   border-radius: 20px 20px 0 0;
+  padding-left: 15px; 
+  padding-top: 15px;
 }
-.title-lodging h1 {
+.title-lodging h2 {
   padding-left: 20px;
   font-size: 25px;
 }
@@ -334,30 +340,32 @@ main {
 /*------------------------------------*\
   #SECTION-POPULAR
 \*------------------------------------*/
-
+#container-popular{
+  display: flex;
+  border-radius: 20px;
+  background-color: #f2f2f2; 
+}
 .title-popular {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
-  background-color: #f2f2f2;
-  border-radius: 20px 20px 0 0;
   margin: 0;
+  padding: 5%;
 }
-.title-popular h1 {
+.title-popular h2 {
   font-size: 25px;
 }
-.contents-popular {
+#contents-popular {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   background-color: #f2f2f2;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px;
 }
 .popular {
   border-radius: 20px;
@@ -397,7 +405,7 @@ main {
 .description-popular p {
   margin-bottom: 25px;
 }
-.container-popular {
+#container-popular {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -408,7 +416,7 @@ main {
   #SECTION-ACTIVITY
 \*------------------------------------*/
 
-.container-activity {
+#container-activity {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -420,7 +428,7 @@ main {
 .title-activity h1 {
   font-size: 25px;
 }
-.contents-activity {
+#contents-activity {
   display: flex;
   height: 650px;
 }
@@ -526,7 +534,7 @@ main {
   #SECTION-FOOTER
 \*------------------------------------*/
 
-.container-footer {
+#container-footer {
   width: 100%;
   display: flex;
   background-color: #f2f2f2;
@@ -570,10 +578,10 @@ footer {
   main {
     height: auto;
   }
-  .container-lodging {
+  #container-lodging {
     height: auto;
   }
-  .contents-lodging {
+  #contents-lodging {
     height: auto;
   }
 }
@@ -586,7 +594,7 @@ footer {
     #SECTION-LODGING (992PX) 
   \*------------------------------------*/
 
-  .container-lodging {
+  #container-lodging {
     width: 100%;
   }
 
@@ -594,28 +602,29 @@ footer {
   #SECTION-POPULAR (992PX)
   \*------------------------------------*/
 
-  .container-popular {
+  #container-popular {
     width: 100%;
     order: -1;
+    margin-bottom: 10px;
   }
-  .contents-popular {
+  #contents-popular {
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
   }
   .popular {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 15px;
-    width: 30%;
+    width: 80%;
   }
   .tag-picture-popular {
     width: 100%;
-    height: auto;
+    height: 200px;
   }
   .pics-popular {
     width: 100%;
-    height: 350px;
-    border-radius: 20px 20px 0 0;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
   }
   .description-popular {
     width: 100%;
@@ -744,14 +753,15 @@ footer {
     #SECTION-POPULAR (768PX)
   \*------------------------------------*/
 
-  .container-popular {
+  #container-popular {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     order: -1;
+    margin-bottom: 10px;
   }
-  .contents-popular {
+  #contents-popular {
     flex-direction: column; 
   }
   .popular {
@@ -778,7 +788,7 @@ footer {
     #SECTION-ACTIVITY (768PX)
   \*------------------------------------*/
 
-  .contents-activity {
+  #contents-activity {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -807,7 +817,7 @@ footer {
     #SECTION-FOOTER (768PX)
   \*------------------------------------*/
 
-  .container-footer {
+  #container-footer {
     display: flex;
     width: 100%;
     flex-direction: column;
